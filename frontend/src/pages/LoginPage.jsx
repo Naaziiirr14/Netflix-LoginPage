@@ -68,15 +68,16 @@ function LoginPage() {
                     </div>
                     <div className="auth-footer">
                         <p>New to Netflix? <Link to="/register" className="signup-link">Sign up now</Link></p>
-                        <p className="recaptcha-text">Sign up your own "Gmail",Passwrod must 6-digits
+                        <p className="recaptcha-text">Sign up your own "Gmail",Passwrod must 6-digits<br/>
+                           Note:<br/>
                             No one uses our site for 15 minutes
-                            ↓
+                            <br/>
                             Render puts our backend to SLEEP
-                            ↓
+                            <br/>
                             Someone visits our site
-                            ↓
+                            <br/>
                             Render has to WAKE UP the server
-                            ↓
+                            <br/>
                             Takes 30-60 seconds to start again
                         </p>
                     </div>
