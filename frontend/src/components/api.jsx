@@ -1,9 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: process.env.NODE_ENV === "production"
-    ? "/_/backend/api"
-    : "http://localhost:5000/api",
+  baseURL: "https://netflix-loginpage-hr69.onrender.com/api",
   headers: { "Content-Type": "application/json" },
 });
 
